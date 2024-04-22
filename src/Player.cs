@@ -69,7 +69,7 @@ class Player
         if (itemName == "red-key")
         {
             Console.WriteLine(currentRoom.GetLockedExit());
-            if (currentRoom.GetLockedExit() == "null")
+            if (currentRoom.GetLockedExit() == null)
             {
                 return "There is no locked door in this room.";
             }
